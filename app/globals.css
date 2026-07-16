@@ -30,6 +30,8 @@
   --fm-spacing-300: 1.5rem;
 
   /* Styles */
+  box-sizing: border-box;
+  color: var(--fm-color-gray-950);
   letter-spacing: var(--fm-letter-spacing-0);
   line-height: var(--fm-line-height-150);
 }
