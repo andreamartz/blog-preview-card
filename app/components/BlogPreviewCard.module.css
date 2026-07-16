@@ -32,6 +32,27 @@
   margin-bottom: 1.5rem;
 }
 
+.articleTag {
+  background-color: var(--fm-color-yellow);
+  border-radius: .25rem;
+  font-weight: var(--fm-font-weight-extra-bold);
+  padding: .25rem .75rem;
+  width: fit-content;
+}
+
+.articleDate {
+  font-size: var(--fluid-12-14);
+}
+
+.articleTitle {
+  font-size: var(--fluid-20-24);
+}
+
+.articleDescription {
+  font-size: var(--fluid-4-16);
+}
+
+
 .author {
   display: flex;
 }
