@@ -45,15 +45,15 @@
 }
 
 .articleDate {
-  font-size: var(--fluid-12-14);
+  font-size: var(--fm-fluid-12-14);
 }
 
 .articleTitle {
-  font-size: var(--fluid-20-24);
+  font-size: var(--fm-fluid-20-24);
 }
 
 .articleDescription {
-  font-size: var(--fluid-4-16);
+  font-size: var(--fm-fluid-14-16);
 }
 
 .articleTitle:focus-visible,
