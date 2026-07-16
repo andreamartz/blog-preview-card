@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { Figtree } from 'next/font/google';
-import "./globals.css";
 import { NextFont } from "next/dist/compiled/@next/font";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Blog Preview Card",
