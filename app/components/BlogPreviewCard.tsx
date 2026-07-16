@@ -25,6 +25,14 @@ const BlogPreviewCard = ({ tag, date, title, text, name, avatar }: BlogPreviewCa
         <section className={styles.content}>
         </section>
         <figure className={styles.author}>
+          <div className={styles.avatarContainer}>
+            <Image
+              src={avatar}
+              alt="author's avatar"
+              fill
+              className={styles.avatar}
+            />
+          </div>
         </figure>
       </article>
     </div>

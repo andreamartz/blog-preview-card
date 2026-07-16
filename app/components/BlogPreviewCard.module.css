@@ -2,6 +2,8 @@
   background-color: var(--fm-color-yellow);
   display: flex;
   justify-content: center;
+}
+
 .card {
   background-color: var(--fm-color-white);
   color: var(--fm-color-gray-950);
@@ -32,4 +34,13 @@
 
 .author {
   display: flex;
+}
+
+.avatarContainer {
+  aspect-ratio: 32/32;
+  position: relative;
+}
+
+.avatar {
+  object-fit: contain;
 }
