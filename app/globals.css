@@ -1,1 +1,33 @@
 @import "tailwindcss";
+
+:root {
+  /* Colors */
+  --fm-color-yellow: hsl(47, 88%, 63%);
+  --fm-color-gray-950: hsl(0, 0%, 7%);
+  --fm-color-gray-500: hsl(0, 0%, 42%);
+  --fm-color-white: hsl(0, 0%, 100%);
+
+  /* Typography */
+  --fm-font-size-large: 1.5rem;
+  --fm-font-size-medium: 1rem;
+  --fm-font-size-small: .875rem;
+  --fm-font-weight-extra-bold: 800;
+  --fm-font-weight-medium: 500;
+  --fm-line-height-150: 150%;
+  --fm-letter-spacing-0: 0;
+
+  /* Fluid Sizes with https://utopia.fyi/clamp/calculator */
+  --fluid-12-14: clamp(0.75rem, 0.6989rem + 0.2273vw, 0.875rem);
+  --fluid-14-16: clamp(0.875rem, 0.831rem + 0.1878vw, 1rem);
+  --fluid-20-24: clamp(1.25rem, 1.162rem + 0.3756vw, 1.5rem);
+
+  /* Spacing */
+  --fm-spacing-50: .25rem;
+  --fm-spacing-100: .5rem;
+  --fm-spacing-150: .75rem;
+  --fm-spacing-300: 1.5rem;
+
+  /* Styles */
+  letter-spacing: var(--fm-letter-spacing-0);
+  line-height: var(--fm-line-height-150);
+}
