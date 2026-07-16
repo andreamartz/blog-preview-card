@@ -51,11 +51,18 @@
 .articleTitle {
   font-size: var(--fm-fluid-20-24);
   font-weight: var(--fm-font-weight-extra-bold);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .articleDescription {
   color: var(--fm-color-gray-500);
   font-size: var(--fm-fluid-14-16);
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }
 
 .articleTitle:focus-visible,
