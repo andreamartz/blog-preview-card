@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from 'next/link';
 import styles from './BlogPreviewCard.module.css';
-import { formatDate } from './BlogPreviewCard/utils';
+import { formatDate } from './utils';
 
 type Year = `${number}${number}${number}${number}`;
 type Month = `${number}${number}`;
