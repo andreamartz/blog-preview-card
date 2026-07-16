@@ -1,0 +1,5 @@
+.container {
+  background-color: var(--fm-color-yellow);
+  display: flex;
+  justify-content: center;
+}

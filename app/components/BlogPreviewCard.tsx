@@ -1,3 +1,5 @@
+import styles from './BlogPreviewCard.module.css';
+
 type BlogPreviewCardProps = {
   tag: string;
   date: string;
