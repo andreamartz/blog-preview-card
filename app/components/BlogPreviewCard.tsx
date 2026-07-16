@@ -12,12 +12,12 @@ type BlogPreviewCardProps = {
   tag: string;
   date: CustomDateString;
   title: string;
-  text: string;
+  description: string;
   name: string;
   avatar: string;
 }
 
-const BlogPreviewCard = ({ tag, date, title, text, name, avatar }: BlogPreviewCardProps) => {
+const BlogPreviewCard = ({ tag, date, title, description, name, avatar }: BlogPreviewCardProps) => {
   const dateObject = new Date(date);
   const dateFormatted = formatDate(dateObject);
   
@@ -40,7 +40,7 @@ const BlogPreviewCard = ({ tag, date, title, text, name, avatar }: BlogPreviewCa
           >
             <h2>{title}</h2>
           </Link>         
-          <p className={styles.articleDescription}>{text}</p>
+          <p className={styles.articleDescription}>{description}</p>
         </div>
         <footer className={styles.author}>
           <div className={styles.avatarContainer}>
