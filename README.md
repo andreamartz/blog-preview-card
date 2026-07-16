@@ -7,16 +7,14 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -28,7 +26,7 @@ Users should be able to:
 - See the blog preview card on desktop and mobile
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+### Screenshots
 
 #### No focus or hover
 
@@ -60,7 +58,7 @@ Users should be able to:
 - Fluid typography
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
-- [TypeScript]() - Strongly typed programming language built on top of JavaScript
+- [TypeScript](https://www.typescriptlang.org/) - Strongly typed programming language built on top of JavaScript
 
 
 ### What I learned
