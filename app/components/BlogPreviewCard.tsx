@@ -50,6 +50,7 @@ const BlogPreviewCard = ({ tag, date, title, text, name, avatar }: BlogPreviewCa
               className={styles.avatar}
             />
           </div>
+          <figcaption className={styles.authorName}>{name}</figcaption>
         </figure>
       </article>
     </div>

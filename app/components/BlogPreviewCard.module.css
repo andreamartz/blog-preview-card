@@ -68,6 +68,8 @@
 
 .author {
   display: flex;
+  gap: .75rem;
+  justify-content: start;
 }
 
 .avatarContainer {
@@ -77,4 +79,8 @@
 
 .avatar {
   object-fit: contain;
+}
+
+.authorName {
+  font-weight: var(--fm-font-weight-extra-bold);
 }
