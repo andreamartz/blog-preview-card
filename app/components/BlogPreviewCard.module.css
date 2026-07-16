@@ -50,9 +50,11 @@
 
 .articleTitle {
   font-size: var(--fm-fluid-20-24);
+  font-weight: var(--fm-font-weight-extra-bold);
 }
 
 .articleDescription {
+  color: var(--fm-color-gray-500);
   font-size: var(--fm-fluid-14-16);
 }
 
