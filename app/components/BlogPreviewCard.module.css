@@ -1,6 +1,7 @@
 .container {
-  background-color: var(--fm-color-yellow);
+  align-items: center;
   display: flex;
+  height: 100vh;
   justify-content: center;
 }
 
