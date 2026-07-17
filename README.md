@@ -43,8 +43,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/andreamartz/blog-preview-card/tree/main)
-- Live Site URL: [Live site URL](https://blog-preview-card-jb6thqjml-andreamartzs-projects.vercel.app/)
+- Solution URL: [Solution URL](https://github.com/andreamartz/blog-preview-card/)
+- Live Site URL: [Live site URL](https://blog-preview-card-pi-ruddy.vercel.app/)
 
 
 ## My process
